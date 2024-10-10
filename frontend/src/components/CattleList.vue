@@ -63,7 +63,7 @@ export default {
   methods: {
     async fetchCattle() {
       try {
-        const response = await fetch('/api/cattle/');
+        const response = await fetch('http://0.0.0.0:8000/api/cattle/');
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -74,7 +74,7 @@ export default {
     },
     async addCattle() {
       try {
-        const response = await fetch('/api/cattle/', {
+        const response = await fetch('http://0.0.0.0:8000/api/cattle/', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

@@ -1,0 +1,10 @@
+Watching for file changes with StatReloader
+Not Found: /cattle
+[10/Oct/2024 19:13:43] "GET /cattle HTTP/1.1" 404 2711
+[10/Oct/2024 19:13:52] "OPTIONS /api/token/ HTTP/1.1" 200 0
+[10/Oct/2024 19:13:52] "POST /api/token/ HTTP/1.1" 200 483
+[10/Oct/2024 19:13:52] "OPTIONS /api/users/ HTTP/1.1" 200 0
+[10/Oct/2024 19:13:52] "GET /api/users/ HTTP/1.1" 200 56
+[10/Oct/2024 19:13:53] "GET /api/cattle/ HTTP/1.1" 200 4640
+[10/Oct/2024 19:14:05] "GET /api/cattle/ HTTP/1.1" 200 4640
+[10/Oct/2024 19:14:33] "GET /api/cattle/ HTTP/1.1" 200 4640

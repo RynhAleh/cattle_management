@@ -32,7 +32,7 @@ export default {
     async fetchUsers() {
       try {
         const token = localStorage.getItem('token');
-        const response = await axios.get('/api/users/', {
+        const response = await axios.get('http://0.0.0.0:8000/api/users/', {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -44,7 +44,7 @@ export default {
     },
     async handleLogin() {
       try {
-        const response = await axios.post('/api/token/', {
+        const response = await axios.post('http://0.0.0.0:8000/api/token/', {
           username: this.username,
           password: this.password,
         });
